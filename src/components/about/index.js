@@ -4,7 +4,7 @@ import './index.css'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div id='about' className='w-full h-screen bg-gradient-to-b from-gray-400 to-gray-600 text-white'>
         <div>
         <div>
             <p>About</p>

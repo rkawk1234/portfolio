@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import './index.css'
 import ReactTailwind from "../../assets/reactTailwind.png"
 
 const Home = () => {
   return (
-    <div className='h-screen w-full bg-gradient-to-b from-black to-gray-500'>
+    <div id='home' className='h-screen w-full bg-gradient-to-b from-black to-gray-500'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col items-center justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'> My Personal Website</h2>
                 <p className='text-lg sm:text-xl text-gray-600 py-2'> With Javascript, React and Tailwind CSS </p>
-                <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-gray-600 to-gray-400 cursor-pointer hover:animate-bounce'>
+                <Link to='about' smooth duration={500} className=' no-underline text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-gray-600 to-gray-400 cursor-pointer hover:animate-bounce'>
                     About Me
-                </button>
+                </Link>
             </div>
 
             <div>
