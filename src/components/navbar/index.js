@@ -5,7 +5,7 @@ import {
   FaTimes,
   FaJava,
   FaPython,
-  FaCss3,
+  FaCss3Alt,
   FaHtml5,
   FaJsSquare,
   FaReact,
@@ -51,7 +51,7 @@ const NavBar = () => {
                         <FaHtml5/>
                         </div>
                         <div className="face3">
-                        <FaCss3/>
+                        <FaCss3Alt/>
                         </div>
                         <div className="face4">
                         <FaReact/>

@@ -14,7 +14,15 @@ const About = () => {
             <div className='pt-8 pb-8'>
                 <p className='text-4xl inline'>About Me</p>
             </div>
+            <p className='text-base'>
+                Hi, my name is Min and I am a full-stack web developer. I have both front-end and back-end web development experiences with HTML, CSS, Javascript  
+
+                
+                
+                
+            </p>
         </div>
+
 
             <div className='pb-3 hover:scale-125 text-black'>
                 <Link to='portfolio' smooth duration={500}>
