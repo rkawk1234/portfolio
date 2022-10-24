@@ -1,12 +1,4 @@
 import React from 'react'
-import {
-  FaJava,
-  FaPython,
-  FaCss3,
-  FaHtml5,
-  FaJsSquare,
-  FaReact,
-} from 'react-icons/fa'
 import './index.css'
 import ReactTailwind from "../../assets/reactTailwind.png"
 

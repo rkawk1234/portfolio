@@ -1,5 +1,13 @@
 import React, {useState} from 'react'
 import {FaBars,FaTimes} from 'react-icons/fa'
+import {
+  FaJava,
+  FaPython,
+  FaCss3,
+  FaHtml5,
+  FaJsSquare,
+  FaReact,
+} from 'react-icons/fa'
 import './index.css'
 
 
@@ -27,9 +35,33 @@ const NavBar = () => {
   ]
   return (
     <div className='fixed flex justify-between items-center w-full h-20 text-white bg-black'>
-      <div>
+      {/* <div>
         <h1 className='text-5xl pl-10 font-signature '>M</h1>
-      </div>
+      </div> */}
+      <div className='pl-10'>
+      <div className="stage-cube-cont">
+                    <div className="cubespinner">
+                        <div className="face1">
+                        <FaJava/>
+                        </div>
+                        <div className="face2">
+                        <FaHtml5/>
+                        </div>
+                        <div className="face3">
+                        <FaCss3/>
+                        </div>
+                        <div className="face4">
+                        <FaReact/>
+                        </div>
+                        <div className="face5">
+                        <FaJsSquare/>
+                        </div>
+                        <div className="face6">
+                        <FaPython/>
+                        </div>
+                    </div>
+                </div>
+                </div>
       <ul className='pr-12 hidden md:flex'>
         {links.map(({ id, link}) =>(
           <li
