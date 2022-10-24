@@ -11,11 +11,6 @@ const Home = () => {
             <div className='flex flex-col items-center justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'> My Personal Website</h2>
                 <p className='text-lg sm:text-xl text-gray-600 py-2'> With Javascript, React and Tailwind CSS </p>
-                <div className='pt-8  hover:scale-125'>
-                <Link to='about' smooth duration={500}>
-                <FaArrowDown size={50}/>
-                </Link>
-                </div>
             </div>
 
             <div>
@@ -27,6 +22,12 @@ const Home = () => {
                 </img>
                 
             </div>
+
+            <div className='absolute bottom-3 hover:scale-125 text-black'>
+                <Link to='about' smooth duration={500}>
+                <FaArrowDown size={50}/>
+                </Link>
+                </div>
 
         {/* <div className='mx-auto w-2/3 md:w-full'>
             <div className="stage-cube-cont">
