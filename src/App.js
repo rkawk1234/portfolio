@@ -1,5 +1,5 @@
-import Header from './components/header'
 import NavBar from './components/navbar'
+import Home from './components/home'
 import React from 'react'
 
 
@@ -7,7 +7,8 @@ function App() {
   return (
     <div>
      <NavBar />
-     <Header />
+     <Home />
+
     </div>
   );
 }
