@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import './index.css'
+import {FaArrowDown} from 'react-icons/fa'
 import ReactTailwind from "../../assets/reactTailwind.png"
 
 const Home = () => {
@@ -10,9 +11,11 @@ const Home = () => {
             <div className='flex flex-col items-center justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'> My Personal Website</h2>
                 <p className='text-lg sm:text-xl text-gray-600 py-2'> With Javascript, React and Tailwind CSS </p>
-                <Link to='about' smooth duration={500} className=' no-underline text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-gray-600 to-gray-400 cursor-pointer hover:animate-bounce'>
-                    About Me
+                <div className='pt-8  hover:scale-125'>
+                <Link to='about' smooth duration={500}>
+                <FaArrowDown size={50}/>
                 </Link>
+                </div>
             </div>
 
             <div>
