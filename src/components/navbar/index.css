@@ -10,9 +10,10 @@
     animation-name: spincube;
 
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     animation-duration: 6s;
     transform-style: preserve-3d;
-    transform-origin: 0 0 0;
+    transform: translateZ(20px);
 }
 .cubespinner div {
     position: absolute;
@@ -70,3 +71,4 @@
         transform: rotateX(90deg);
    }
 }
+
