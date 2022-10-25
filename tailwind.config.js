@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Titillium Web"],
+      signature: ["Pacifico"],
     }
   },
   plugins: [],

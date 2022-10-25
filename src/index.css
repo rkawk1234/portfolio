@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Titillium+Web:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Pacifico&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +13,6 @@
 
 @layer base {
   html{
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Inter', sans-serif;
   }
 }
