@@ -28,7 +28,7 @@
 }
 .cubespinner .face1 {
     transform: rotateY(0deg) translateZ(20px);
-    color: red;
+    color: green;
 }
 .cubespinner .face2 {
     transform: rotateY(90deg) translateZ(20px);
@@ -44,7 +44,7 @@
 }
 .cubespinner .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(20px);
-    color: #efd81d;
+    color: #0856bb;
 }
 .cubespinner .face6 {
     transform: rotateX(-90deg) translateZ(20px);

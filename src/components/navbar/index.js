@@ -3,13 +3,13 @@ import {Link} from "react-scroll"
 import {
   FaBars,
   FaTimes,
-  FaJava,
-  FaPython,
   FaCss3Alt,
   FaHtml5,
-  FaJsSquare,
   FaReact,
 } from 'react-icons/fa'
+
+import {SiDjango, SiTailwindcss, SiJavascript} from 'react-icons/si'
+
 import './index.css'
 
 
@@ -45,7 +45,7 @@ const NavBar = () => {
       <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                        <FaJava/>
+                        <SiDjango/>
                         </div>
                         <div className="face2">
                         <FaHtml5/>
@@ -57,10 +57,10 @@ const NavBar = () => {
                         <FaReact/>
                         </div>
                         <div className="face5">
-                        <FaJsSquare/>
+                        <SiTailwindcss/>
                         </div>
                         <div className="face6">
-                        <FaPython/>
+                        <SiJavascript/>
                         </div>
                     </div>
                 </div>
