@@ -6,7 +6,8 @@ import './index.css'
 
 const About = () => {
     return (
-        <div id='about' className='w-full h-screen bg-gradient-to-b from-gray-400 to-gray-600 text-white'>
+        <div id='about' className='w-full h-screen bg-gradient-to-b from-gray-500 to-gray-600 text-white'>
+
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 '>
 
                 <div className='flex flex-col items-center justify-center h-full'>

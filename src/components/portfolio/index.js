@@ -5,7 +5,7 @@ import './index.css'
 
 const Portfolio = () => {
     return (
-        <div id='portfolio' className='w-full h-screen bg-gradient-to-b from-gray-400 to-gray-600 text-white'>
+        <div id='portfolio' className='w-full h-screen bg-gradient-to-b from-gray-600 to-gray-800 text-white'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 '>
                 {/* 
         <div className='flex flex-col items-center justify-center h-full'>
