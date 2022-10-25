@@ -73,18 +73,18 @@ const NavBar = () => {
           <Link to={link} smooth duration={500}>{link}</Link>
         </li>
         ))} */}
-        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200'>
           <Link activeClass="active"  to="home" smooth duration={500}>Home</Link>
         </li>
-        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200'>
         <Link to="about"   smooth duration={500}>About</Link>
           
         </li>
-        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200'>
         <Link to="portfolio"   smooth duration={500}>Portfolio</Link>
           
         </li>
-        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+        <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200'>
         <Link  to="contact"   smooth duration={500}>Contact</Link>
           
         </li>
