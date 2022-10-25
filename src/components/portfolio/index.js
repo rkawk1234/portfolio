@@ -1,25 +1,19 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import { FaArrowDown } from 'react-icons/fa'
+import portfolio1 from '../../assets/portfolio1.png'
+import portfolio2 from '../../assets/portfolio2.png'
 import './index.css'
 
 const Portfolio = () => {
     return (
         <div id='portfolio' className='w-full h-screen bg-gradient-to-b from-gray-600 to-gray-800 text-white'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 '>
-                {/* 
-        <div className='flex flex-col items-center justify-center h-full'>
 
-            <div className='pt-8 pb-8'>
-                <p className='text-4xl inline'>Portfolio</p>
-            </div>
-        </div> */}
+                <div className='grid grid-rows-2  text-center items-center justify-center w-2/3 h-full'>
+                    <div className='pt-5'> <img className='rounded-lg' src={portfolio1} alt="Portfolio1"/></div>
+                    <div> <img className='rounded-lg' src={portfolio2} alt="Portfolio2"/></div>
 
-                <div className='grid grid-cols-2  text-center items-center justify-center w-full h-full'>
-                    <div> First Project</div>
-                    <div> Second Project</div>
-                    <div> Third Project</div>
-                    <div> Fourth Project</div>
 
                 </div>
 

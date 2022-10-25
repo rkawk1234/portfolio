@@ -4,14 +4,10 @@ import { FaHome } from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 import './index.css'
 
-// const Result =() =>{
-//     return (
-//       <p>Your email has been sent</p>  
-//     );
-// }
+
 
 const Contact = () => {
-    // const [result, setResult] = useState(false);
+
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
