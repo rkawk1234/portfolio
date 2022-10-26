@@ -8,7 +8,7 @@ const Skills = () => {
      var htmlColor = '#e34c26'
      var cssColor = '#264de4'
      var jsColor = '#f0db4f'
-     var pythonColor = '#0000FF'
+     var pythonColor = '#FFE873'
      var reactColor = '#61DBFB'
      var djangoColor = '#092e20'
      var boostrapColor = '#563d7c'
