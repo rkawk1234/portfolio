@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from "react-scroll";
-import { FaArrowDown } from 'react-icons/fa'
 import './index.css'
 
 
@@ -28,11 +26,6 @@ const About = () => {
                 </div>
 
 
-                <div className='pb-3 hover:scale-125 text-black'>
-                    <Link to='portfolio' smooth duration={500}>
-                        <FaArrowDown size={50} />
-                    </Link>
-                </div>
 
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import './index.css'
-import {FaArrowDown, FaPlus} from 'react-icons/fa'
+import { FaPlus} from 'react-icons/fa'
 import {SiReact, SiTailwindcss} from 'react-icons/si'
 
 
@@ -20,23 +20,10 @@ const Home = () => {
                 <SiReact size={150} color="#61DBFB"/>
                 <FaPlus size={70} color = "#E0FFFF"/>
                 <SiTailwindcss size={150} color="#67e8f9"/>
-                {/* <img
-                src={ReactTailwind}
-                alt="react"
-                className='rounded-2xl mx-auto w-full md:w-full hover:animate-pulse'>
-
-                </img> */}
 
 
                 
             </div>
-
-            <div className='absolute bottom-3 hover:scale-125 text-black'>
-                <Link to='about' smooth duration={500}>
-                <FaArrowDown size={50}/>
-                </Link>
-                </div>
-
 
 
     </div>
