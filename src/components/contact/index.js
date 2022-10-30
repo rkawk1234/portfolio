@@ -14,9 +14,9 @@ const Contact = () => {
     
         emailjs.sendForm('service_hori067', 'template_99jmmfe', form.current , 'YBYjcFv8krxRbq_-f')
           .then((result) => {
-              console.log(result.text);
+              alert("Message Sent",result.text)
           }, (error) => {
-              console.log(error.text);
+              alert("Please try again",error.text)
           });
 
       };
