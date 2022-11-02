@@ -11,13 +11,14 @@ const About = () => {
                 <div className='flex flex-col items-center justify-center h-full'>
 
                     <div className='pt-8 pb-8'>
-                        <p className='text-4xl inline animate-pulse'>About Me</p>
+                        <p className='text-4xl font-bold text-center'>About Me</p>
                     </div>
                     <p className='text-base'>
                         Hi, my name is Min and I am a full-stack web developer. I have both front-end and back-end web development experiences with different languages and frameworks.
                         For front-end webdevelopment, I use HTML,CSS,Javascript, and javascript library, React. For Back-end web development, I normally use Python and Django for the framework.
                         I've graduated from University of Waterloo and I have a Bachelor's degree in Mathematics, major in computational mathematics, minor in computer science.
-                        Computational Mathematics is an intersection of mathematics, statistics, optimization, and computer science, to solve problems in various fields, which include business, finance, medicine, science, and technology.
+                        <br/>
+                        
 
 
 

@@ -4,6 +4,19 @@ import portfolio2 from '../../assets/portfolio2.png'
 import './index.css'
 
 const Portfolio = () => {
+    const portfolios = [
+        {
+          id: 1,
+          src: portfolio1,
+        },
+        {
+          id: 2,
+          src: portfolio2,
+        },
+
+
+      ];
+
     return (
         <div id='portfolio' className='w-full h-screen bg-gradient-to-b from-gray-600 to-gray-800 text-white'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 '>
