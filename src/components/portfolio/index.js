@@ -11,14 +11,17 @@ const Portfolio = () => {
     {
       id: 1,
       src: portfolio1,
+      describe:"Cryptocurrency website with live cryptocurrency prices. Built with Django and Python"
     },
     {
       id: 2,
       src: portfolio2,
+      describe: "Live Cryptocurrency prices  "
     },
     {
       id: 3,
       src: portfolio3,
+      describe:"Latest football scores and records. Demonstrating full stack web application"
     },
     {
       id: 4,
@@ -38,20 +41,17 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,describe }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-125 "
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <p className='text-sm'>{describe}</p>
+
+
               </div>
             </div>
           ))}
