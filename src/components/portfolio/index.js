@@ -26,6 +26,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: portfolio4,
+      describe:"Check-list app with React, MongoDB, Node, and Express"
     },
 
 
